@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>0.3.0</Version>
+    <Authors>Cordell Lawrence</Authors>
+    <Company>CNL TECH</Company>
+    <Description>Command line application to help with finding duplicate files</Description>
+    <Copyright>Cordell Lawrence</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.7.82" />
+  </ItemGroup>
+
+</Project>
